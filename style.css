@@ -1,26 +1,70 @@
-#logo{
+#header {
+    min-height: 10px;
+    height: 25vh;
+    padding: 0px 30px;
+}
+
+#links li{
+    display: inline;
+    float: right;
+    margin: 10px;
+
+}
+
+#link li a{
+    display: block;
+}
+
+#logo-container{
     text-align: center;
 }
-#logo img{
-    width: 230px;
+
+#logo-box {
+    margin: 0 auto;
+    width: 240px;
+    text-align: right;
 }
+#logo-box img{
+    width: 240px;
+}
+
+#logo-box .text {
+    position: relative;
+    width: 240px;
+    z-index: 100;
+    bottom: 20px;
+    color: #3C7FF4;
+    font-family: "Arial";
+}
+
 form {
     text-align: center;
 }
+
 #searchbar {
     align: center;
     border-radius: 125px;
     height: 35px;
-    width: 500px;
+    width: 475px;
     border-width: 1px;
     border-color: #D3D3D3;
-    margin: 20px
+    margin: 20px;
+    border-style: solid;
+    padding-left: 30px;
 }
+
+#searchbar:hover, #searchbar:focus {
+    box-shadow: 0 0 4px 1px #D3D3D3;
+    border-color: white;
+    outline: none;
+}
+
 
 input[type=submit] {
     height:32px;
     border-width: 0px;
     padding: 8px 18px;
+    margin: 5px 5px;
     border-radius: 3px;
     background-color: #F8F9FA;
     font-size: 12px;
