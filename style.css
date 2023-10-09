@@ -1,0 +1,30 @@
+#logo{
+    text-align: center;
+}
+#logo img{
+    width: 230px;
+}
+form {
+    text-align: center;
+}
+#searchbar {
+    align: center;
+    border-radius: 125px;
+    height: 35px;
+    width: 500px;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    margin: 20px
+}
+
+input[type=submit] {
+    height:32px;
+    border-width: 0px;
+    padding: 8px 18px;
+    border-radius: 3px;
+    background-color: #F8F9FA;
+    font-size: 12px;
+    letter-spacing: .2px;
+    font-family: "Helvetica";
+    color: #404040;
+}
